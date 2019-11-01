@@ -1,0 +1,67 @@
+nav,.contenedor,footer,article,header,.principal,aside{
+    max-width:  93% ;
+    margin: auto;
+text-align: center;
+border-radius: 0,3em;
+}
+
+
+nav{
+    background-color:rgb(233, 233, 245);
+}
+.contenedor{
+    background-color: rgb(16, 94, 211);
+}
+footer{
+    background-color: rgb(255, 136, 0);
+}
+article{
+    background-color:rgb(231, 230, 238);
+}
+header{
+    background-color: rgb(54, 30, 190);
+}
+.Principal{
+    background-color: rgb(233, 128, 7);
+    display: inline-block;
+    width: 65%;
+}
+aside{
+    background-color: rgb(47, 0, 255);
+   display: inline-block;
+    width: 30%;
+}
+/*Menu*/
+.Menu li{
+    display: inline-block;
+}
+li a, btnDesplegable {
+    display: inline-block;
+    color: darkblue;
+    padding: 0.9em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+.contenidoDesplegable{
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 8em;
+
+}
+.contenidoDesplegable a{
+    color: rgb(221, 82, 27);
+    padding: 0.9em 1em;
+    display: block;
+    text-align: left;
+
+}
+.contenidoDesplegable a:hover{
+background-color: rgb(24, 24, 192);
+}
+.desplegable:hover .contenidoDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: rgb(255, 115, 0);
+}
